@@ -10,9 +10,10 @@ If you have Go installed, you can run: go get github.com/pmylund/cpuburn
 Note: You do not need to have Go installed to run the stand-alone version.
 
 ## Usage
-
+```
   ./cpuburn (burn all available cores)
   ./cpuburn -n 2 (burn two cores)
   ./cpuburn -n 4 -u 5 (burn four cores, updating every five seconds)
+```
 
 See http://patrickmylund.com/projects/cpuburn/ for more information.
