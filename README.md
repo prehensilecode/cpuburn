@@ -9,6 +9,19 @@ If you have Go installed, you can run: `go get github.com/pmylund/cpuburn`
 
 Note: You do not need to have Go installed to run the stand-alone version.
 
+## Build from source
+Clone the repo:
+```
+git clone https://github.com/prehensilecode/cpuburn
+```
+Build it:
+```
+cd cpuburn
+go build
+```
+
+which produces the executable `cpuburn` in the same directory.
+
 ## Usage
 ```
   ./cpuburn (burn all available cores)
