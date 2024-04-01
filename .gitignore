@@ -1,2 +1,4 @@
 # ignore the generated executable
 cpuburn
+# ignore slurm output files
+*.out
