@@ -6,4 +6,5 @@
 
 date
 uname -a
+ulimit -a
 ./cpuburn
